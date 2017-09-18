@@ -1,0 +1,34 @@
+document.getElementById("rabbitImage")
+
+document.getElementsByTagName("footer")
+document.getElementsByTagName("footer")[0]
+
+document.getElementsByClassName("textSection")
+document.getElementsByClassName("textSection")[0]
+
+document.querySelectorAll(".textSection")
+document.querySelectorAll(".textSection")[0]
+
+document.querySelectorAll(".textSection")[0].innerHTML = "<p>This is better rabbit text</p>"
+
+//refresh page
+document.getElementById("rabbitImage").src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+
+document.getElementById("rabbitImage").setAttribute("src","https://hobbydb-production.s3.amazonaws.com/processed_uploads/subject_photo/subject_photo/image/4245/1422416006-3-3646/rabbit_large.jpg")
+
+document.getElementById("rabbitImage").style.height = "700px"
+
+let newDiv = document.createElement("div"); 
+var newContent = document.createTextNode("New div here!");
+newDiv.appendChild(newContent);
+let textSection = document.getElementsByClassName("textSection")[0]
+textSection.appendChild(newDiv);
+
+textSection.removeChild(newDiv);
+
+function alertText() {
+	alert("Help me!");
+}
+
+document.getElementById("rabbitImage").onclick = alertText;
+

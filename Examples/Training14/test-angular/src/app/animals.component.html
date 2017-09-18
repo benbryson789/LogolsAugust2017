@@ -1,0 +1,13 @@
+<div class="content">
+    <div class="animal" *ngFor="let animal of animals">
+        <img (click)="gotoAnimal(animal.name)" src="{{animal.image}}" alt="{{animal.name}}" style="height:300px;width:300px;" />
+        <div><a (click)="gotoAnimal(animal.name)">{{animal.name}}</a></div>
+    </div>
+    <!--
+    <div class="row">
+        <div *ngFor="let animal of animals">
+            <a class="col-md-4" (click)="gotoAnimal(animal.name)">{{animal.name}}</a>
+        </div>
+    </div>
+    -->
+</div>

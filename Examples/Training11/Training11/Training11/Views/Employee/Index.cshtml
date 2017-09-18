@@ -1,0 +1,39 @@
+﻿@using Training11.Models
+@model EmployeeViewModel
+
+@{
+    ViewBag.Title = "Employee";
+}
+
+<h1>Manage Employee</h1>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(model => model.FirstName)
+    </div>
+    <div>
+        @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { placeholder = "Enter First Name" } })
+    </div>
+    <div>
+        @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.LastName)
+    </div>
+    <div>
+        @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { placeholder = "Enter Last Name" } })
+    </div>
+    <div>
+        @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        @Html.LabelFor(model => model.WasHired)
+    </div>
+    <div>
+        @Html.EditorFor(model => model.WasHired)
+    </div>
+    <input type="submit" value="Submit" />
+}

@@ -1,0 +1,78 @@
+
+p {
+    text-indent: 25px;
+}
+
+.data {
+    padding: 20px;
+    border: 1px dotted black;
+    width: 500px;
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+    clear: both;
+}
+
+.data p {
+    padding: 20px;
+    width: 500px;
+}
+
+.data table {
+    margin: 0px 0px 0px 15px;
+}
+
+.data th, .data td {
+    padding: 5px 10px 5px 10px;
+}
+
+.data th {
+    background-color:darkslategray;
+    color:white;
+    font-weight: bold; 
+}
+
+.data tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+.data tr:nth-child(odd) {
+    background-color:lightgoldenrodyellow;
+}
+
+.data tfoot td {
+    font-weight: bold; 
+    background-color: darkcyan;
+}
+
+header {
+    position: fixed;
+    width:100%;
+    margin: 0px;
+    top: 0px;
+    padding: 0px 0px 0px 20px;
+    z-index: 1;
+}
+
+.textSection {
+    padding: 5px;
+}
+
+.content {
+    margin: 50px 0px 80px 0px;
+    z-index: -1;
+}
+
+#dontStandImage {
+    margin: 5px;
+}
+
+.pageHeaderSection {
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 2em;
+}
+
+.editLink {
+    font-size: 0.5em;
+}

@@ -1,0 +1,25 @@
+function square(num) {
+	return num * num;
+}
+
+var ModuleName = (function() {
+	let FirstName = "";
+	let LastName = "Mackie";
+
+	function FullName() {
+		return FirstName + " " + LastName;
+    }
+
+	function SetFirstName(firstName) {
+		FirstName = firstName;
+    }
+
+	return {
+		FullName : FullName,
+		SetFirstName : SetFirstName
+    }
+})()
+
+ModuleName.FullName()
+ModuleName.SetFirstName("Joe")
+ModuleName.FullName()

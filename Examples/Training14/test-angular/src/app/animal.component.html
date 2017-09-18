@@ -1,0 +1,46 @@
+<div class="content">
+    <section class="pageHeaderSection">
+        <span class="glyphicon glyphicon-th-large"></span>
+        {{animal.name}}
+        <span class="editLink">
+            <a *ngIf="!animal.allowedit" (click)="allowEdit()">edit</a>
+            <a *ngIf="animal.allowedit" (click)="cancelEdit()">cancel</a>
+            <input *ngIf="animal.allowedit" [(ngModel)]="animal.name" placeholder="name"/>
+        </span>
+    </section>
+    <section class="textSection">
+        <div class="col-md-8">
+            <div [innerHTML]="animal.summary"></div>
+        </div>
+        <img class="col-md-4" id="dontStandImage" src="{{animal.image}}" alt="Don't stand there.'" style="height:300px;width:300px;" />
+    </section>
+    <section class="data">
+        <h2><span class="glyphicon glyphicon-blackboard"></span>Data:</h2>
+        <p>
+            If I had some data about {{animal.name}}s then I think that this would be a good place to show it.
+            I'm really highlighting this data by giving a separate background color and moving it away from the text.
+        </p>
+        <table>
+        <thead>
+            <tr>
+                <th>Species</th>
+                <th>Height</th>
+                <th>Width</th>
+                <th>Length</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let type of animal.species">
+                <td>{{type.name}}</td>
+                <td>{{type.averageheight}}</td>
+                <td>{{type.averageweight}}</td>
+                <td>{{type.averagelength}}</td>
+            </tr>
+        </tbody>
+        </table>
+        <p>
+            Here is a good place to summarize this data.  I don't know anything about {{animal.name}}s, but if I did
+            this would be a great summary of the data that I have collected.
+        </p>
+    </section>
+</div>

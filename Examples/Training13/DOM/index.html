@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Title</title>
+    <link rel="stylesheet" href="./styles/site.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+      <!--
+      header {
+          background-color:black;
+          color:white;
+          height:100px;
+          letter-spacing:5px;
+      }
+      -->
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">My Site</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Rabbits<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Turtles</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="content">
+        <section class="pageHeaderSection">
+          <span class="glyphicon glyphicon-th-large"></span>
+          My page Header
+        </section>
+        <section class="textSection">
+            <div class="col-md-8">
+                <p>
+                Some text here.  Rabbits are the third most popular pet in America, after cats and dogs, according to the Humane Society of the United States—and the third most abandoned. Most Americans have a sense of how long cats and dogs live, the kind of care they need, their behaviors. But rabbits? I asked several of my colleagues how long they think domestic rabbits live. “One to two years?” “Maybe three?” In fact, with proper care, rabbits live 10 to 12 years. People's understanding of them seems to be out of step with their ubiquity.
+                </p>
+                <p>
+                This disconnect appears to drive impulse pet rabbit purchases, says Anne Martin, executive director of the House Rabbit Society, the largest rabbit rescue organization in the U.S. Because many people think they’re short-lived, low maintenance, cage-bound animals, rabbits are seen as “starter pets,” akin to hamsters or goldfish, perfect for kids. This misconception may help drive a glut of baby bunny sales ahead of Easter—and a subsequent rise in rabbit abandonments.
+                </p>
+                <p>
+                Jennifer McGee, co-manager of the Georgia chapter of House Rabbit Society, a shelter in the southeastern part of the state, says they normally receive one to two calls a week about abandoned rabbits. But in the six weeks after Easter, the shelter gets three to four calls a day. House Rabbit Society chapters in Idaho and Chicago report a more noticeable rise in summer, as “Easter bunnies” hit puberty and reality sets in for owners.
+                </p>
+                <p>
+                And here’s the reality: Although rabbits can make delightful companions, they’re not easy-care pets. Vets and insurance companies consider them exotic pets, so medical care can be more expensive than for a cat or dog. Rabbits need a lot of exercise and shouldn’t simply be pent up in a cage. This means they need to learn to use a litterbox (yes, rabbits can be potty trained), which takes patience, just as it does for cats. They’re also prey animals, and we’re, well, predators. They generally don’t like to be picked up by humans; they prefer to be in control, their feet on the ground.
+                </p>
+                <p>
+                Rabbits’ complexity means they often face a grim fate when purchased on a whim. Seemingly cute and cuddly, once baby bunnies mature, at between three and six months old, they can become aggressive and even destructive. Proper exercise, litterbox training, and spaying or neutering curbs the problem for most rabbits. But many new owners assume that the undesirable behaviors are the sign of a problem rabbit and get rid of it. Others may do a little research and balk at the time and money it takes to change bunny behavior. McGee says she’s often met with shock and frustration from parents: “What do you mean I have to spend $200 to fix a $30 rabbit?”
+                </p>
+            </div>
+            <img class="col-md-4" id="rabbitImage" src="./images/rabbit.jpg" alt="Don't stand there.'" style="height:300px;width:300px;" />
+        </section>
+        <section class="data">
+            <h2><span class="glyphicon glyphicon-blackboard"></span>Data:</h2>
+            <p>
+              If I had some data about rabbits then I think that this would be a good place to show it.
+              I'm really highlighting this data by giving a separate background color and moving it away from the text.
+            </p>
+            <table>
+            <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                    <th>Column 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1 Col 1</td>
+                    <td>Row 1 Col 2</td>
+                    <td>Row 1 Col 3</td>
+                    <td>Row 1 Col 4</td>
+                </tr>
+                <tr>
+                    <td>Row 2 Col 1</td>
+                    <td>Row 2 Col 2</td>
+                    <td>Row 2 Col 3</td>
+                    <td>Row 2 Col 4</td>
+                </tr>
+                <tr>
+                    <td>Row 3 Col 1</td>
+                    <td>Row 3 Col 2</td>
+                    <td>Row 3 Col 3</td>
+                    <td>Row 3 Col 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>foot 1 Col 1</td>
+                    <td>foot 2 Col 2</td>
+                    <td>foot 2 Col 3</td>
+                    <td>foot 2 Col 4</td>
+                </tr>
+            </tfoot>
+            </table>
+            <p>
+              Here is a good place to summarize this data.  I don't know anything about rabbits, but if I did
+              this would be a great summary of the data that I have collected.
+            </p>
+        </section>
+    </div>
+    <footer>
+        <h4>This is a footer.</h4>
+    </footer>
+  </body>
+</html>

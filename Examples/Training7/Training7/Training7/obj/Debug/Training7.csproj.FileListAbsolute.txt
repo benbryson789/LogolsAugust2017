@@ -1,0 +1,13 @@
+C:\Code\Logols\Examples\Training7\Training7\Training7\bin\Debug\Training7.exe.config
+C:\Code\Logols\Examples\Training7\Training7\Training7\bin\Debug\Training7.exe
+C:\Code\Logols\Examples\Training7\Training7\Training7\bin\Debug\Training7.pdb
+C:\Code\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.csprojResolveAssemblyReference.cache
+C:\Code\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.exe
+C:\Code\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.pdb
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\bin\Debug\Training7.exe.config
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\bin\Debug\Training7.exe
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\bin\Debug\Training7.pdb
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.csprojResolveAssemblyReference.cache
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.csproj.CoreCompileInputs.cache
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.exe
+C:\Users\JMack_000\Documents\Logols\Examples\Training7\Training7\Training7\obj\Debug\Training7.pdb

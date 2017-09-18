@@ -1,0 +1,11 @@
+C:\Code\Logols\Examples\Training8\Training9\Training9\bin\Debug\Training9.exe.config
+C:\Code\Logols\Examples\Training8\Training9\Training9\bin\Debug\Training9.exe
+C:\Code\Logols\Examples\Training8\Training9\Training9\bin\Debug\Training9.pdb
+C:\Code\Logols\Examples\Training8\Training9\Training9\obj\Debug\Training9.exe
+C:\Code\Logols\Examples\Training8\Training9\Training9\obj\Debug\Training9.pdb
+C:\Code\Logols\Examples\Training9\Training9\Training9\bin\Debug\Training9.exe.config
+C:\Code\Logols\Examples\Training9\Training9\Training9\obj\Debug\Training9.exe
+C:\Code\Logols\Examples\Training9\Training9\Training9\obj\Debug\Training9.pdb
+C:\Code\Logols\Examples\Training9\Training9\Training9\bin\Debug\Training9.exe
+C:\Code\Logols\Examples\Training9\Training9\Training9\bin\Debug\Training9.pdb
+C:\Code\Logols\Examples\Training9\Training9\Training9\obj\Debug\Training9.csprojResolveAssemblyReference.cache

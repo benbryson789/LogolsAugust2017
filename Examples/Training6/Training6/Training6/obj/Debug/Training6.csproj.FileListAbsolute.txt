@@ -1,0 +1,10 @@
+C:\Code\Logols\Examples\Training6\Training6\Training6\bin\Debug\Training6.pdb
+C:\Code\Logols\Examples\Training6\Training6\Training6\obj\Debug\Training6.pdb
+C:\Code\Logols\Examples\Training6\Training6\Training6\bin\Debug\Training6.exe
+C:\Code\Logols\Examples\Training6\Training6\Training6\obj\Debug\Training6.exe
+C:\Code\Logols\Examples\Training6\Training6\Training6\obj\Debug\Training6.csprojResolveAssemblyReference.cache
+C:\Users\JMack_000\Documents\Logols\Examples\Training6\Training6\Training6\bin\Debug\Training6.exe
+C:\Users\JMack_000\Documents\Logols\Examples\Training6\Training6\Training6\bin\Debug\Training6.pdb
+C:\Users\JMack_000\Documents\Logols\Examples\Training6\Training6\Training6\obj\Debug\Training6.csprojResolveAssemblyReference.cache
+C:\Users\JMack_000\Documents\Logols\Examples\Training6\Training6\Training6\obj\Debug\Training6.exe
+C:\Users\JMack_000\Documents\Logols\Examples\Training6\Training6\Training6\obj\Debug\Training6.pdb
