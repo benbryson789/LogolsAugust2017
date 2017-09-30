@@ -11,16 +11,3 @@ C:\Users\JMack_000\source\repos\Assessment\Assessment.Domain\bin\Debug\netcoreap
 C:\Users\JMack_000\source\repos\Assessment\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Entities.dll
 C:\Users\JMack_000\source\repos\Assessment\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.DAL.pdb
 C:\Users\JMack_000\source\repos\Assessment\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Entities.pdb
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Domain.deps.json
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Domain.dll
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Domain.pdb
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.DAL.dll
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Entities.dll
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.DAL.pdb
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\bin\Debug\netcoreapp2.0\Assessment.Entities.pdb
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\obj\Debug\netcoreapp2.0\Assessment.Domain.csprojResolveAssemblyReference.cache
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\obj\Debug\netcoreapp2.0\Assessment.Domain.csproj.CoreCompileInputs.cache
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\obj\Debug\netcoreapp2.0\Assessment.Domain.AssemblyInfoInputs.cache
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\obj\Debug\netcoreapp2.0\Assessment.Domain.AssemblyInfo.cs
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\obj\Debug\netcoreapp2.0\Assessment.Domain.dll
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Domain\obj\Debug\netcoreapp2.0\Assessment.Domain.pdb

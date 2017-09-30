@@ -20,9 +20,9 @@ namespace Assessment.Domain
             return _repository.Insert(assessment);
         }
 
-        public void Delete(Assessment.Entities.Assessment assessment)
+        public void Delete(int assessmentID)
         {
-            _repository.Delete(assessment);
+            _repository.Delete(assessmentID);
         }
 
         public void Update(Assessment.Entities.Assessment assessment)

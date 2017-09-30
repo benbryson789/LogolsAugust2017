@@ -13,16 +13,16 @@ namespace Assessment.DAL
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                return dbConnection.Query<InsertID>("Assess.InsertAnswer", answer, commandType: CommandType.StoredProcedure).First().ID;
+                return dbConnection.Query<InsertID>("Assess.InsertAnswer", new { QuestionID = answer.QuestionID, Text = answer.Text, IsCorrect = answer.IsCorrect }, commandType: CommandType.StoredProcedure).First().ID;
             }
         }
 
-        public void Delete(Answer answer)
+        public void Delete(int answerID)
         {
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                dbConnection.Execute("Assess.DeleteAnswer", answer, commandType: CommandType.StoredProcedure);
+                dbConnection.Execute("Assess.DeleteAnswer", new { AnswerID = answerID }, commandType: CommandType.StoredProcedure);
             }
         }
 

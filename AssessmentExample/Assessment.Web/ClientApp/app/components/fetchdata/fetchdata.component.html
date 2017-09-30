@@ -1,0 +1,138 @@
+<h1>Data</h1>
+
+<p *ngIf="!students"><em>Loading Students...</em></p>
+
+<table class='table' *ngIf="students">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td>{{ student.studentID }}</td>
+            <td>{{ student.firstName }}</td>
+            <td>{{ student.lastName }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!subjects"><em>Loading Subjects...</em></p>
+
+<table class='table' *ngIf="subjects">
+    <thead>
+        <tr>
+            <th>Subject ID</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let subject of subjects">
+            <td>{{ subject.subjectID }}</td>
+            <td>{{ subject.name }}</td>
+            <td>{{ subject.description }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!answers"><em>Loading Answers...</em></p>
+
+<table class='table' *ngIf="answers">
+    <thead>
+        <tr>
+            <th>Answer ID</th>
+            <th>Question ID</th>
+            <th>Text</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let answer of answers">
+            <td>{{ answer.answerID }}</td>
+            <td>{{ answer.questionID }}</td>
+            <td>{{ answer.text }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!assessments"><em>Loading Assessments...</em></p>
+
+<table class='table' *ngIf="assessments">
+    <thead>
+        <tr>
+            <th>Assessment ID</th>
+            <th>Level Number</th>
+            <th>Subject ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let assessment of assessments">
+            <td>{{ assessment.assessmentID }}</td>
+            <td>{{ assessment.levelNumber }}</td>
+            <td>{{ assessment.subjectID }}</td>
+            <td>{{ assessment.name }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!levels"><em>Loading Levels...</em></p>
+
+<table class='table' *ngIf="levels">
+    <thead>
+        <tr>
+            <th>Level Number</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let level of levels">
+            <td>{{ level.levelNumber }}</td>
+            <td>{{ level.name }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!questions"><em>Loading Questions...</em></p>
+
+<table class='table' *ngIf="questions">
+    <thead>
+        <tr>
+            <th>Question ID</th>
+            <th>Assessment ID</th>
+            <th>Text</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let question of questions">
+            <td>{{ question.questionID }}</td>
+            <td>{{ question.assessmentID }}</td>
+            <td>{{ question.text }}</td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!studentAssessments"><em>Loading Student Assessments...</em></p>
+
+<table class='table' *ngIf="studentAssessments">
+    <thead>
+        <tr>
+            <th>Student Assessment ID</th>
+            <th>Student ID</th>
+            <th>Assessment ID</th>
+            <th>Score</th>
+            <th>Assessment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let studentAssessment of studentAssessments">
+            <td>{{ studentAssessment.studentAssessmentID }}</td>
+            <td>{{ studentAssessment.studentID }}</td>
+            <td>{{ studentAssessment.assessmentID }}</td>
+            <td>{{ studentAssessment.score }}</td>
+            <td>{{ studentAssessment.assessmentDate }}</td>
+        </tr>
+    </tbody>
+</table>

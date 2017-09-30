@@ -7,12 +7,3 @@ C:\Users\JMack_000\source\repos\Assessment\Assessment.Entities\obj\Debug\netcore
 C:\Users\JMack_000\source\repos\Assessment\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.AssemblyInfo.cs
 C:\Users\JMack_000\source\repos\Assessment\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.dll
 C:\Users\JMack_000\source\repos\Assessment\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.pdb
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\bin\Debug\netcoreapp2.0\Assessment.Entities.deps.json
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\bin\Debug\netcoreapp2.0\Assessment.Entities.dll
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\bin\Debug\netcoreapp2.0\Assessment.Entities.pdb
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.csprojResolveAssemblyReference.cache
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.csproj.CoreCompileInputs.cache
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.AssemblyInfoInputs.cache
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.AssemblyInfo.cs
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.dll
-C:\Users\JMack_000\source\repos\AssessmentExample\Assessment.Entities\obj\Debug\netcoreapp2.0\Assessment.Entities.pdb

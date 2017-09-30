@@ -5322,11 +5322,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Domain\\Assessment.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Domain\\Assessment.Domain.csproj",
       "projectName": "Assessment.Domain",
-      "projectPath": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Domain\\Assessment.Domain.csproj",
+      "projectPath": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Domain\\Assessment.Domain.csproj",
       "packagesPath": "C:\\Users\\JMack_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Domain\\obj\\",
+      "outputPath": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5345,11 +5345,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Entities\\Assessment.Entities.csproj": {
-              "projectPath": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Entities\\Assessment.Entities.csproj"
+            "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj": {
+              "projectPath": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj"
             },
-            "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.DAL\\Assessment.DAL.csproj": {
-              "projectPath": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.DAL\\Assessment.DAL.csproj"
+            "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.DAL\\Assessment.DAL.csproj": {
+              "projectPath": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.DAL\\Assessment.DAL.csproj"
             }
           }
         }

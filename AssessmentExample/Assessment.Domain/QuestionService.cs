@@ -20,9 +20,9 @@ namespace Assessment.Domain
             return _repository.Insert(question);
         }
 
-        public void Delete(Question question)
+        public void Delete(int questionID)
         {
-            _repository.Delete(question);
+            _repository.Delete(questionID);
         }
 
         public void Update(Question question)

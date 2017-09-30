@@ -20,9 +20,9 @@ namespace Assessment.Domain
             return _repository.Insert(level);
         }
 
-        public void Delete(Level level)
+        public void Delete(int levelID)
         {
-            _repository.Delete(level);
+            _repository.Delete(levelID);
         }
 
         public void Update(Level level)

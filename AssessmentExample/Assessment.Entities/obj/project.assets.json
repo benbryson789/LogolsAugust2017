@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Entities\\Assessment.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj",
       "projectName": "Assessment.Entities",
-      "projectPath": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Entities\\Assessment.Entities.csproj",
+      "projectPath": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Entities\\Assessment.Entities.csproj",
       "packagesPath": "C:\\Users\\JMack_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JMack_000\\source\\repos\\AssessmentExample\\Assessment.Entities\\obj\\",
+      "outputPath": "C:\\Users\\JMack_000\\source\\repos\\Assessment\\Assessment.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
